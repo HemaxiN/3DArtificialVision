@@ -1,5 +1,5 @@
 # 3DArtificialVision: Analyzing Mouse Eye Blood Vessels with AI
-PhD Project | Hemaxi Narotamo | Instituto Superior Técnico - Instituto de Sistemas e Robótica (IST-ISR), Gulbenkian Institute for Molecular Medicine (GiMM) and Católica Biomedical Research Centre (CBR)
+PhD Project | PhD Program in Biomedical Engineering | Hemaxi Narotamo | Instituto Superior Técnico - Instituto de Sistemas e Robótica (IST-ISR), Gulbenkian Institute for Molecular Medicine (GiMM) and Católica Biomedical Research Centre (CBR)
 
 Supervisors: Professor Margarida Silveira (IST-ISR) and Professor Cláudio Franco (GiMM and CBR)
 
