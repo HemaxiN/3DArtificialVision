@@ -52,7 +52,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 * Extract the files in your working directory, this will create a folder named 3dartificialvision with the application files.
 * To start the application, double-click on the 3dartificialvision.exe file, two windows will open: a console that will display output and error messages, and the main GUI:
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/console.png)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/console3dav.png)
 ![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/main_GUI.png)
 
 ### **2: Loading the Images**
