@@ -103,12 +103,16 @@ The region can be corrected clicking the right mouse button while placed on top 
 
 A previously generated .csv file can be loaded at any time using the "Load CSV" button.
 
-# **5: Comparison of Retinal Vasculature Features**
+# **5: Computing Nucleus-Golgi Vectors**
+
+# **6: Comparison of Retinal Vasculature Features**
 
 * Type the group names separated by commas and without spaces between them in the "Insert Group Names" box, for this simple example the following should be typed: Captopril,VEGF. Then select the features (Vessel Density, Branch Length, Branching Points and/or Vessel Radius), and click on the "Visualize Boxplots" button to compare retinal vasculature distributions for different groups.
 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/visualize_boxplots.PNG)
 
-# **6: Close the Application**
+# **7: Histogram polar plots**
+
+# **8: Close the Application**
 
 * To stop the application click on the "Quit" button or close the GUI window.
