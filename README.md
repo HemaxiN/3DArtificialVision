@@ -111,7 +111,7 @@ A previously generated .csv file can be loaded at any time using the "Load CSV" 
 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/visualize_boxplots.PNG)
 
-### **7: Histogram polar plots**
+### **7: Visualizing polar histogram plots**
 
 ### **8: Close the Application**
 
