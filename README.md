@@ -1,9 +1,17 @@
 ![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/icon3dav.png)
 
 # 3DArtificialVision: A Deep Learning Tool for Analyzing 3D Mouse Retinal Vasculature in Microscopy Images
-PhD Project | PhD Program in Biomedical Engineering | Hemaxi Narotamo | Instituto Superior Técnico - Instituto de Sistemas e Robótica (IST-ISR), Gulbenkian Institute for Molecular Medicine (GiMM) and Católica Biomedical Research Centre (CBR)
 
-Supervisors: Professor Margarida Silveira (IST-ISR) and Professor Cláudio Franco (GiMM and CBR)
+## 🎓 PhD Project  
+**PhD Program:** Biomedical Engineering  
+**Researcher:** Hemaxi Narotamo  
+
+**This project was conducted at:** 
+- Instituto Superior Técnico (IST) – Instituto de Sistemas e Robótica (ISR)  
+- Gulbenkian Institute for Molecular Medicine (GiMM)
+- Católica Biomedical Research Centre (CBR) 
+
+**Supervisors:** Professor Margarida Silveira (IST,ISR) and Professor Cláudio Franco (GiMM and CBR)
 
 ## Abstract
 
