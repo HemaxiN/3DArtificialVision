@@ -46,7 +46,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 ## Instructions
 
-# **1: Downloading and Launching the Application**
+### **1: Downloading and Launching the Application**
 
 * Download the 3dartificialvision1.0.zip available [here](https://huggingface.co/Hemaxi/3DArtificialVision/tree/main) (It is currently available for Windows).
 * Extract the files in your working directory, this will create a folder named 3dartificialvision with the application files.
@@ -55,7 +55,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/console.png)
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/main_GUI.png)
 
-# **2: Loading the Images**
+### **2: Loading the Images**
 
 * Click on the "Load Image(s)" button and select the directory containing the images that will be analyzed. Currently, our software supports .tif and .czi files, each image must have three-dimensions (X,Y,Z), and one channel representing the blood vessels. The images' names should have a prefix denoting its group (for instance 'GroupName_Image1.tif). This is important to later visualize the distributions of the vascular features  by grouping images belonging to the same group.
 * Apart from the images, this directory should also contain a resolution.xlsx file with the information, for each image, about the voxel's physical size (in µm) along the x, y and z axes. Moreover, this file should contain two additional columns representing the image pre-processing parameters, perceqmin and perceqmax. Adjustment of these parameters is OPTIONAL, as we recommend using 1 and 99 for P6 retinas, and 0.5 and 99.5 for adult retinas. Even if the recommended parameters are used, they need to be defined in the resolution.xlsx file. Note: Please confirm if you should use dots (.) or commas (,) as decimal separator in this file, as misinterpretation can lead to incorrect data analysis and processing.
@@ -73,7 +73,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/sliders.PNG)
 
-# **3: Performing Segmentation**
+### **3: Performing Segmentation**
 
 * Click on the "Segment" button, this will perform segmentation of all the images based on the proposed 3D CycleGAN model. This step is computationally demanding, the segmentation time will highly depend on the number and size of the images and the specifications of the machine. It is recommended to use a machine with an Nvidia GPU. Output messages in the console will allow to monitor the segmentation process.
 * The segmentation mask of each image will be saved in the results folder as a .tif file.
@@ -81,7 +81,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/sliders2.PNG)
 
-# **4: Performing Quantification**
+### **4: Performing Quantification**
 
 * (OPTIONAL) Select an image using the horizonal slider for which several ROIs need to be defined, then click on the "Select ROI" button, insert the names of the ROIs to be annotated. The names should be separated by commas and should not have spaces between them: 
 
@@ -103,16 +103,16 @@ The region can be corrected clicking the right mouse button while placed on top 
 
 A previously generated .csv file can be loaded at any time using the "Load CSV" button.
 
-# **5: Computing Nucleus-Golgi Vectors**
+### **5: Computing Nucleus-Golgi Vectors**
 
-# **6: Comparison of Retinal Vasculature Features**
+### **6: Comparison of Retinal Vasculature Features**
 
 * Type the group names separated by commas and without spaces between them in the "Insert Group Names" box, for this simple example the following should be typed: Captopril,VEGF. Then select the features (Vessel Density, Branch Length, Branching Points and/or Vessel Radius), and click on the "Visualize Boxplots" button to compare retinal vasculature distributions for different groups.
 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/visualize_boxplots.PNG)
 
-# **7: Histogram polar plots**
+### **7: Histogram polar plots**
 
-# **8: Close the Application**
+### **8: Close the Application**
 
 * To stop the application click on the "Quit" button or close the GUI window.
