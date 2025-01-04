@@ -105,6 +105,8 @@ A previously generated .csv file can be loaded at any time using the "Load CSV" 
 
 ### **5: Computing Nucleus-Golgi Vectors**
 
+Click on the "Quantify" button to compute the nucleus-Golgi vectors based on the red and green channels.
+
 ![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/vectors.png)
 
 ### **6: Comparison of Retinal Vasculature Features**
@@ -114,6 +116,8 @@ A previously generated .csv file can be loaded at any time using the "Load CSV" 
 ![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_boxplots.png)
 
 ### **7: Visualizing polar histogram plots**
+
+* Type the group names separated by commas and without spaces between them in the "Insert Group Names" box, for this simple example the following should be typed: Captopril,VEGF. Then select the feature "Polarity Angles", and click on the "Visualize Boxplots" button to visualize the polar histograms of the selected groups.
 
 ![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_polar_histogram.png)
 
