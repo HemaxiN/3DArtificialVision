@@ -115,7 +115,7 @@ A previously generated .csv file can be loaded at any time using the "Load CSV" 
 
 ### **7: Visualizing polar histogram plots**
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_polar_histogram.PNG)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_polar_histogram.png)
 
 ### **8: Close the Application**
 
