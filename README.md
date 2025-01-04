@@ -1,4 +1,4 @@
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/icon3dav.png)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/icon3dav_final.png)
 
 # 3DArtificialVision: A Deep Learning Tool for Analyzing 3D Mouse Retinal Vasculature in Microscopy Images
 
