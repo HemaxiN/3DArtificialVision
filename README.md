@@ -71,7 +71,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 * (OPTIONAL) To confirm that the images were properly loaded, use the horizontal slider to visualize different images, and the vertical slider to see each 2D slice across the depth dimension. Herein, we used two small images to explain the method, users can analyze entire retinas with our software:
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders.PNG)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders.png)
 
 ### **3: Performing Segmentation**
 
@@ -79,7 +79,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 * The segmentation mask of each image will be saved in the results folder as a .tif file.
 * The sliders can be used again to visualize the images and corresponding segmentation masks:
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders2.PNG)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders2.png)
 
 ### **4: Performing Quantification**
 
@@ -105,13 +105,13 @@ A previously generated .csv file can be loaded at any time using the "Load CSV" 
 
 ### **5: Computing Nucleus-Golgi Vectors**
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/vectors.PNG)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/vectors.png)
 
 ### **6: Comparison of Retinal Vasculature Features**
 
 * Type the group names separated by commas and without spaces between them in the "Insert Group Names" box, for this simple example the following should be typed: Captopril,VEGF. Then select the features (Vessel Density, Branch Length, Branching Points and/or Vessel Radius), and click on the "Visualize Boxplots" button to compare retinal vasculature distributions for different groups.
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_boxplots.PNG)
+![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_boxplots.png)
 
 ### **7: Visualizing polar histogram plots**
 
