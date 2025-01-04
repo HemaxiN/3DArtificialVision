@@ -16,8 +16,6 @@ To overcome these limitations, we developed 3DArtificialVision, an automated fra
 The 3DArtificialVision framework is presented as a free user-friendly graphical interface suitable for researchers without programming experience. This open-source tool will significantly improve the ability to study 3D vascular networks in both health and disease.
 
 
-## Research Objectives
-
 
 ## Graphical User Interface
 
