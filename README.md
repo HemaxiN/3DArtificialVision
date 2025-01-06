@@ -23,6 +23,19 @@ To overcome these limitations, we developed 3DArtificialVision, an automated fra
 
 The 3DArtificialVision framework is presented as a free user-friendly graphical interface suitable for researchers without programming experience. This open-source tool will significantly improve the ability to study 3D vascular networks in both health and disease.
 
+## Repositories with the Source Code
+
+### Main Repositories
+
+* [3DCellPol](https://github.com/HemaxiN/3DCellPol)
+* [3DVascNet](https://github.com/HemaxiN/3DVascNet)
+* [3DVectorAnnotationTool](https://github.com/HemaxiN/VectorAnnotationTool)
+* [3DVox2Vox](https://github.com/HemaxiN/3DVox2Vox)
+
+### Additional Repositories for Nucleus-Golgi Vector Prediction
+
+* [3DYOLO](https://github.com/HemaxiN/3DYOLO)
+* [3DU-Vec](https://github.com/HemaxiN/3D_U-Vec)
 
 
 ## Graphical User Interface
