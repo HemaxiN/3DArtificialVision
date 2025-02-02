@@ -31,6 +31,7 @@ The 3DArtificialVision framework is presented as a free user-friendly graphical 
 * [3DVascNet](https://github.com/HemaxiN/3DVascNet)
 * [3DVectorAnnotationTool](https://github.com/HemaxiN/VectorAnnotationTool)
 * [3DVox2Vox](https://github.com/HemaxiN/3DVox2Vox)
+* [3DNGMic](https://github.com/HemaxiN/3DNGMic)
 
 ### Additional Repositories for Nucleus-Golgi Vector Prediction
 
