@@ -105,7 +105,7 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 ### **4: Performing Quantification**
 
-* (OPTIONAL) Select an image using the horizonal slider for which several ROIs need to be defined, then click on the "Select ROI" button, insert the names of the ROIs to be annotated. The names should be separated by commas and should not have spaces between them: 
+* (OPTIONAL) Select an image using the horizontal slider for which several ROIs need to be defined, then click on the "Select ROI" button, insert the names of the ROIs to be annotated. The names should be separated by commas and should not have spaces between them: 
 
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/roi1.png)
 
