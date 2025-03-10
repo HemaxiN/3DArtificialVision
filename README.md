@@ -33,11 +33,17 @@ The 3DArtificialVision framework is presented as a free user-friendly graphical 
 * [3DVox2Vox](https://github.com/HemaxiN/3DVox2Vox)
 * [3DNGMic](https://github.com/HemaxiN/3DNGMic)
 
-### Additional Repositories for Nucleus-Golgi Vector Prediction
+### Additional Repositories for Nucleus-Golgi Vector Prediction and Segmentation
 
 * [3DYOLO](https://github.com/HemaxiN/3DYOLO)
 * [3DU-Vec](https://github.com/HemaxiN/3D_U-Vec)
+* [CNN-GNN](https://github.com/HemaxiN/Polarity-Vectors)
+* [3DTransformers](https://github.com/HemaxiN/3DTransformers)
 
+### Master's thesis projects co-supervised by me:
+* [3DCycleGAN](https://github.com/alicerosa20/SS-Seg-CycleGAN/tree/master)
+* [3DTransformers](https://github.com/GoncaloMesquita/Thesis_FCT_3D)
+* [GNN](https://github.com/esyker/Graph-Neural-Networks-for-Polarity-Vectors-Prediction-in-3D-Microscopy-Images)
 
 ## Graphical User Interface
 
