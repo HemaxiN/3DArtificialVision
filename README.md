@@ -133,7 +133,9 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 Thereafter, manually select each ROI after clicking on the ROI name on the right. Using the left mouse button, add points to define the ROI for the selected region name: 
 
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/roi2.PNG)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/roi2.PNG">
+</p>
 
 The region can be corrected clicking the right mouse button while placed on top of a previously defined point. After selecting the first ROI, click on another region name from the list on the right and add the points to define the ROI. When all ROIs are defined click on the "Done" button:
 
