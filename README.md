@@ -50,7 +50,9 @@ The 3DArtificialVision framework is presented as a free user-friendly graphical 
 3DArtificialVision's user-friendly interface integrates [3DVascNet](https://github.com/HemaxiN/3DVascNet) and [3DCellPol](https://github.com/HemaxiN/3DCellPol).
 The interface is available [here](https://huggingface.co/Hemaxi/3DArtificialVision/tree/main).
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/artificialvision.JPG)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DArtificialVision/blob/main/images/artificialvision.JPG">
+</p>
 
 ## GPU Compatibility
 
