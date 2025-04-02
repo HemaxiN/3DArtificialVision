@@ -89,8 +89,11 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 
 * Click on the "Load Image(s)" button and select the directory containing the images that will be analyzed. Currently, our software supports .tif and .czi files, each image must have three-dimensions (X,Y,Z), and one channel representing the blood vessels. The images' names should have a prefix denoting its group (for instance 'GroupName_Image1.tif). This is important to later visualize the distributions of the vascular features  by grouping images belonging to the same group.
 * Apart from the images, this directory should also contain a resolution.xlsx file with the information, for each image, about the voxel's physical size (in µm) along the x, y and z axes. Moreover, this file should contain two additional columns representing the image pre-processing parameters, perceqmin and perceqmax. Adjustment of these parameters is OPTIONAL, as we recommend using 1 and 99 for P6 retinas, and 0.5 and 99.5 for adult retinas. Even if the recommended parameters are used, they need to be defined in the resolution.xlsx file. Note: Please confirm if you should use dots (.) or commas (,) as decimal separator in this file, as misinterpretation can lead to incorrect data analysis and processing.
-
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/files.PNG)
+ 
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/files.PNG">
+</p>
+  
 ![](https://github.com/HemaxiN/3DVascNet/blob/main/images/resolutionfile.PNG)
 
 3DArtificialVision will automatically read this file, or throw an error message if the file is not present in the selected directory.
