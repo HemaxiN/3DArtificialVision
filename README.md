@@ -93,18 +93,24 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 <p align="center">
 <img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/files.PNG">
 </p>
-  
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/resolutionfile.PNG)
+
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/resolutionfile.PNG">
+</p>
 
 3DArtificialVision will automatically read this file, or throw an error message if the file is not present in the selected directory.
 
 * 3DArtificialVision will automatically create a results folder in the selected directory where all results will be saved:
 
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/results.PNG)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/results.PNG">
+</p>
 
 * (OPTIONAL) To confirm that the images were properly loaded, use the horizontal slider to visualize different images, and the vertical slider to see each 2D slice across the depth dimension. Herein, we used two small images to explain the method, users can analyze entire retinas with our software:
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders.png)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders.png">
+</p>
 
 ### **3: Performing Segmentation**
 
@@ -112,13 +118,18 @@ During segmentation, you can verify if the GPU is being utilized by running the 
 * The segmentation mask of each image will be saved in the results folder as a .tif file.
 * The sliders can be used again to visualize the images and corresponding segmentation masks:
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders2.png)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DArtificialVision/blob/main/images/sliders2.png">
+</p>
 
 ### **4: Performing Quantification**
 
 * (OPTIONAL) Select an image using the horizontal slider for which several ROIs need to be defined, then click on the "Select ROI" button, insert the names of the ROIs to be annotated. The names should be separated by commas and should not have spaces between them: 
 
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/roi1.png)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/roi1.png">
+</p>
+
 
 Thereafter, manually select each ROI after clicking on the ROI name on the right. Using the left mouse button, add points to define the ROI for the selected region name: 
 
@@ -126,13 +137,20 @@ Thereafter, manually select each ROI after clicking on the ROI name on the right
 
 The region can be corrected clicking the right mouse button while placed on top of a previously defined point. After selecting the first ROI, click on another region name from the list on the right and add the points to define the ROI. When all ROIs are defined click on the "Done" button:
 
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/roi3.PNG)
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/roi4.PNG)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/roi3.PNG">
+</p>
+
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/roi4.PNG">
+</p>
 
 * Click on the "Quantify" button to perform 3D vasculature quantification. Output messages in the console will allow to monitor the quantification process. 3D skeletons will be automatically saved in the results folder, as .tif files with the "Skeleton_" prefix in their names. 
 * Once finished, click on the "Save the Results" button, which will save a vessel_features.csv file in the results folder containing the computed features:
 
-![](https://github.com/HemaxiN/3DVascNet/blob/main/images/vessel_features_csv.PNG)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DVascNet/blob/main/images/vessel_features_csv.PNG">
+</p>
 
 A previously generated .csv file can be loaded at any time using the "Load CSV" button.
 
@@ -140,13 +158,17 @@ A previously generated .csv file can be loaded at any time using the "Load CSV" 
 
 Click on the "Quantify" button to compute the nucleus-Golgi vectors based on the red and green channels.
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/vectors.png)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DArtificialVision/blob/main/images/vectors.png">
+</p>
 
 ### **6: Comparison of Retinal Vasculature Features**
 
 * Type the group names separated by commas and without spaces between them in the "Insert Group Names" box, for this simple example the following should be typed: Captopril,VEGF. Then select the features (Vessel Density, Branch Length, Branching Points and/or Vessel Radius), and click on the "Visualize Boxplots" button to compare retinal vasculature distributions for different groups.
 
-![](https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_boxplots.png)
+<p align="center">
+<img src="https://github.com/HemaxiN/3DArtificialVision/blob/main/images/visualize_boxplots.png">
+</p>
 
 ### **7: Visualizing polar histogram plots**
 
